@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "dbc5a922a14e4d221868aa586c32b485"
-build_time: [1580633863, 124439000]
+build_time: [1580640808, 625411000]
 inputs:
   "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/MostViralViewController.swift": [1580633700, 174147316]
   "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/PageViewController.swift": [1580633564, 8605844]

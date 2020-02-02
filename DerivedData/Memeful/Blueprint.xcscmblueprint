@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80661A2FEABEF3855AC84ABFAD867BD48F6C46E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80661A2FEABEF3855AC84ABFAD867BD48F6C46E2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B8934FE2-5D7B-461B-A0E4-D931EE2DFC51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80661A2FEABEF3855AC84ABFAD867BD48F6C46E2" : "Memeful\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Memeful",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Memeful.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/afnouzil\/Memeful_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80661A2FEABEF3855AC84ABFAD867BD48F6C46E2"
+    }
+  ]
+}

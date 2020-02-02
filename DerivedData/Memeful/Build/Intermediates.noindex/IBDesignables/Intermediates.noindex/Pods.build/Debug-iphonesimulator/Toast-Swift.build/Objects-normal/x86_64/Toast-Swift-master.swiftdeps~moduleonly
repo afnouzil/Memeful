@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "d232e58f6903853a4dae3fa68b2898a7"
-build_time: [1580633861, 319359000]
+build_time: [1580640805, 549215000]
 inputs:
   "/Users/fazlinnouzil/Desktop/Memeful/Pods/Toast-Swift/Toast/Toast.swift": [1580539280, 713382285]
