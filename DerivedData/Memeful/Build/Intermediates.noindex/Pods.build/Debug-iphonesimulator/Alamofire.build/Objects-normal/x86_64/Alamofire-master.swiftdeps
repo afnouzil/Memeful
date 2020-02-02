@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "245e49c5ea0c7eeb19a8d97d9d86d04f"
+build_time: [1580633703, 258898000]
+inputs:
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/AFError.swift": [1580525658, 9191180]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Alamofire.swift": [1580525658, 11044200]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1580525658, 7417411]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/MultipartFormData.swift": [1580525658, 5860184]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1580525658, 6399655]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Notifications.swift": [1580525658, 9886485]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/ParameterEncoding.swift": [1580525658, 8659200]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Request.swift": [1580525658, 11972553]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Response.swift": [1580525658, 10402526]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/ResponseSerialization.swift": [1580525658, 13232424]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Result.swift": [1580525658, 8046793]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1580525658, 13819773]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/SessionDelegate.swift": [1580525658, 14351571]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/SessionManager.swift": [1580525658, 12622439]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/TaskDelegate.swift": [1580525658, 5040513]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Timeline.swift": [1580525658, 6904456]
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/Alamofire/Source/Validation.swift": [1580525658, 9550056]

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "89142c322f112b227261923ecf8aeef4"
+build_time: [1580633710, 77351000]
+inputs:
+  "/Users/fazlinnouzil/Desktop/Memeful/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [1580525658, 18622835]

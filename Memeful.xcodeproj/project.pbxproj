@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B60C2403775B82D9701C489 /* Pods_Memeful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69E8B32D50DFB58515D6C8 /* Pods_Memeful.framework */; };
+		DF3A884323E5548B00A41953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3A884223E5548B00A41953 /* ViewController.swift */; };
+		DF3A884623E5651000A41953 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3A884523E5651000A41953 /* CustomLabel.swift */; };
+		DF3A884823E5671200A41953 /* MostViralDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3A884723E5671200A41953 /* MostViralDetailViewController.swift */; };
+		DF3A884A23E5EE7000A41953 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3A884923E5EE7000A41953 /* PageViewController.swift */; };
 		DF45AAC723DE7FD300D893C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAC623DE7FD300D893C3 /* AppDelegate.swift */; };
 		DF45AAC923DE7FD300D893C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAC823DE7FD300D893C3 /* SceneDelegate.swift */; };
-		DF45AACB23DE7FD300D893C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AACA23DE7FD300D893C3 /* ViewController.swift */; };
+		DF45AACB23DE7FD300D893C3 /* MostViralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AACA23DE7FD300D893C3 /* MostViralViewController.swift */; };
 		DF45AACE23DE7FD300D893C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF45AACC23DE7FD300D893C3 /* Main.storyboard */; };
 		DF45AAD023DE7FD700D893C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF45AACF23DE7FD700D893C3 /* Assets.xcassets */; };
 		DF45AAD323DE7FD700D893C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF45AAD123DE7FD700D893C3 /* LaunchScreen.storyboard */; };
+		DF45AADF23DE805D00D893C3 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AADE23DE805D00D893C3 /* Meme.swift */; };
+		DF45AAE523DE849E00D893C3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAE123DE831500D893C3 /* ApiManager.swift */; };
+		DF45AAE623DE84A100D893C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAE223DE831600D893C3 /* Constants.swift */; };
+		DF45AAE723DE84A300D893C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAE423DE831700D893C3 /* DataManager.swift */; };
+		DF45AAE823DE84A500D893C3 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45AAE323DE831600D893C3 /* NetworkStatus.swift */; };
+		DFAB947B23E11EAD001FFA38 /* MostViralCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB947923E11EAD001FFA38 /* MostViralCollectionViewCell.swift */; };
+		DFAB948123E1289B001FFA38 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB948023E1289B001FFA38 /* GradientColor.swift */; };
+		DFAB948A23E153E8001FFA38 /* MostViralCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAB948823E153E8001FFA38 /* MostViralCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02E3711F3F7C271548DED978 /* Pods-Memeful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeful.release.xcconfig"; path = "Target Support Files/Pods-Memeful/Pods-Memeful.release.xcconfig"; sourceTree = "<group>"; };
+		2C69E8B32D50DFB58515D6C8 /* Pods_Memeful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memeful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3A884223E5548B00A41953 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF3A884423E55A8900A41953 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		DF3A884523E5651000A41953 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		DF3A884723E5671200A41953 /* MostViralDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralDetailViewController.swift; sourceTree = "<group>"; };
+		DF3A884923E5EE7000A41953 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DF45AAC323DE7FD300D893C3 /* Memeful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF45AAC623DE7FD300D893C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF45AAC823DE7FD300D893C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF45AACA23DE7FD300D893C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF45AACA23DE7FD300D893C3 /* MostViralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralViewController.swift; sourceTree = "<group>"; };
 		DF45AACD23DE7FD300D893C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF45AACF23DE7FD700D893C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF45AAD223DE7FD700D893C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF45AAD423DE7FD700D893C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF45AADE23DE805D00D893C3 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		DF45AAE123DE831500D893C3 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		DF45AAE223DE831600D893C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DF45AAE323DE831600D893C3 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		DF45AAE423DE831700D893C3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DFAB947923E11EAD001FFA38 /* MostViralCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFAB948023E1289B001FFA38 /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		DFAB948823E153E8001FFA38 /* MostViralCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MostViralCollectionViewCell.xib; sourceTree = "<group>"; };
+		F5DF505E705F36DDFBBF7762 /* Pods-Memeful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeful.debug.xcconfig"; path = "Target Support Files/Pods-Memeful/Pods-Memeful.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +60,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B60C2403775B82D9701C489 /* Pods_Memeful.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431FD884820A9BC9145F602B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C69E8B32D50DFB58515D6C8 /* Pods_Memeful.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2092B921D1DDEF551051902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF505E705F36DDFBBF7762 /* Pods-Memeful.debug.xcconfig */,
+				02E3711F3F7C271548DED978 /* Pods-Memeful.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF3A884123E5547000A41953 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A884223E5548B00A41953 /* ViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DF45AABA23DE7FD300D893C3 = {
 			isa = PBXGroup;
 			children = (
 				DF45AAC523DE7FD300D893C3 /* Memeful */,
 				DF45AAC423DE7FD300D893C3 /* Products */,
+				C2092B921D1DDEF551051902 /* Pods */,
+				431FD884820A9BC9145F602B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,84 @@
 		DF45AAC523DE7FD300D893C3 /* Memeful */ = {
 			isa = PBXGroup;
 			children = (
-				DF45AAC623DE7FD300D893C3 /* AppDelegate.swift */,
-				DF45AAC823DE7FD300D893C3 /* SceneDelegate.swift */,
-				DF45AACA23DE7FD300D893C3 /* ViewController.swift */,
-				DF45AACC23DE7FD300D893C3 /* Main.storyboard */,
+				DFAB947D23E12303001FFA38 /* Categories */,
+				DF45AADB23DE7FEF00D893C3 /* Model */,
+				DF45AADC23DE7FFB00D893C3 /* View */,
+				DF45AADD23DE800000D893C3 /* Controller */,
+				DF45AAE023DE82EB00D893C3 /* Manager */,
 				DF45AACF23DE7FD700D893C3 /* Assets.xcassets */,
 				DF45AAD123DE7FD700D893C3 /* LaunchScreen.storyboard */,
 				DF45AAD423DE7FD700D893C3 /* Info.plist */,
 			);
 			path = Memeful;
+			sourceTree = "<group>";
+		};
+		DF45AADB23DE7FEF00D893C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF45AADE23DE805D00D893C3 /* Meme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF45AADC23DE7FFB00D893C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF45AACC23DE7FD300D893C3 /* Main.storyboard */,
+				DFAB948823E153E8001FFA38 /* MostViralCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF45AADD23DE800000D893C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF45AAC623DE7FD300D893C3 /* AppDelegate.swift */,
+				DF45AAC823DE7FD300D893C3 /* SceneDelegate.swift */,
+				DF45AACA23DE7FD300D893C3 /* MostViralViewController.swift */,
+				DFAB947923E11EAD001FFA38 /* MostViralCollectionViewCell.swift */,
+				DF3A884923E5EE7000A41953 /* PageViewController.swift */,
+				DF3A884723E5671200A41953 /* MostViralDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF45AAE023DE82EB00D893C3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DF45AAE123DE831500D893C3 /* ApiManager.swift */,
+				DF45AAE423DE831700D893C3 /* DataManager.swift */,
+				DF45AAE223DE831600D893C3 /* Constants.swift */,
+				DF45AAE323DE831600D893C3 /* NetworkStatus.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DFAB947D23E12303001FFA38 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A884123E5547000A41953 /* Extension */,
+				DFAB947F23E1288A001FFA38 /* Helpers */,
+				DFAB947E23E12327001FFA38 /* Designable */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DFAB947E23E12327001FFA38 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A884423E55A8900A41953 /* CustomView.swift */,
+				DF3A884523E5651000A41953 /* CustomLabel.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
+		DFAB947F23E1288A001FFA38 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB948023E1289B001FFA38 /* GradientColor.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF45AAD723DE7FD700D893C3 /* Build configuration list for PBXNativeTarget "Memeful" */;
 			buildPhases = (
+				F2D030BD4A307080B90AA203 /* [CP] Check Pods Manifest.lock */,
 				DF45AABF23DE7FD300D893C3 /* Sources */,
 				DF45AAC023DE7FD300D893C3 /* Frameworks */,
 				DF45AAC123DE7FD300D893C3 /* Resources */,
+				0CD488BCD994A41C1113AD75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +256,73 @@
 				DF45AAD323DE7FD700D893C3 /* LaunchScreen.storyboard in Resources */,
 				DF45AAD023DE7FD700D893C3 /* Assets.xcassets in Resources */,
 				DF45AACE23DE7FD300D893C3 /* Main.storyboard in Resources */,
+				DFAB948A23E153E8001FFA38 /* MostViralCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD488BCD994A41C1113AD75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D030BD4A307080B90AA203 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memeful-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF45AABF23DE7FD300D893C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF45AACB23DE7FD300D893C3 /* ViewController.swift in Sources */,
+				DF45AACB23DE7FD300D893C3 /* MostViralViewController.swift in Sources */,
+				DF3A884A23E5EE7000A41953 /* PageViewController.swift in Sources */,
+				DF3A884623E5651000A41953 /* CustomLabel.swift in Sources */,
+				DF45AADF23DE805D00D893C3 /* Meme.swift in Sources */,
+				DF3A884823E5671200A41953 /* MostViralDetailViewController.swift in Sources */,
+				DF45AAE523DE849E00D893C3 /* ApiManager.swift in Sources */,
+				DF45AAE723DE84A300D893C3 /* DataManager.swift in Sources */,
+				DF3A884323E5548B00A41953 /* ViewController.swift in Sources */,
+				DF45AAE823DE84A500D893C3 /* NetworkStatus.swift in Sources */,
+				DFAB947B23E11EAD001FFA38 /* MostViralCollectionViewCell.swift in Sources */,
 				DF45AAC723DE7FD300D893C3 /* AppDelegate.swift in Sources */,
 				DF45AAC923DE7FD300D893C3 /* SceneDelegate.swift in Sources */,
+				DF45AAE623DE84A100D893C3 /* Constants.swift in Sources */,
+				DFAB948123E1289B001FFA38 /* GradientColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +464,7 @@
 		};
 		DF45AAD823DE7FD700D893C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DF505E705F36DDFBBF7762 /* Pods-Memeful.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +482,7 @@
 		};
 		DF45AAD923DE7FD700D893C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E3711F3F7C271548DED978 /* Pods-Memeful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

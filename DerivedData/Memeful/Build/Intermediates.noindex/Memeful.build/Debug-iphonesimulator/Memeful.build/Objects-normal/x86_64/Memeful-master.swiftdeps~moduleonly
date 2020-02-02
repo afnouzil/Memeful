@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "af50439f98eaec41456e9d74335d94a8"
+build_time: [1580633711, 588331000]
+inputs:
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/MostViralViewController.swift": [1580633700, 174147316]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/PageViewController.swift": [1580633564, 8605844]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Categories/Designable/CustomLabel.swift": [1580543639, 299273914]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Model/Meme.swift": [1580545978, 99194481]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/MostViralDetailViewController.swift": [1580633564, 26867680]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Manager/ApiManager.swift": [1580633564, 35128951]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Manager/DataManager.swift": [1580094395, 383817817]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Categories/Extension/ViewController.swift": [1580539506, 580795081]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Manager/NetworkStatus.swift": [1580633563, 988443336]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/MostViralCollectionViewCell.swift": [1580540302, 483107501]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/AppDelegate.swift": [1580091475, 765295817]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Controller/SceneDelegate.swift": [1580091475, 772897374]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Manager/Constants.swift": [1580633563, 996638432]
+  "/Users/fazlinnouzil/Desktop/Memeful/Memeful/Categories/Helpers/GradientColor.swift": [1580631878, 829518578]
